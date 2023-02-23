@@ -40,7 +40,7 @@ grant all privileges on test.* to 'test'@'localhost';  # 모든 table(test.* )�
 flush privileges;
 
 grant all privileges on *.* to 'test6'@'localhost' identified by '1234';   
-    # *.* 모든 데이터베이스를 말함. 데이터베이스를 만들면서 권한까지 부여alter
+    # *.* 모든 데이터베이스를 말함. 데이터베이스를 만들면서 권한까지 부여
 show grants for 'test'@'localhost';
 
 
